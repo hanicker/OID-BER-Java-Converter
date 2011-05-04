@@ -73,6 +73,7 @@ public class Window {
 		});
 		
 		text_normal = new JTextArea();
+		text_normal.setLineWrap(true);
 		text_normal.setToolTipText("Number separated by dots like 1.3.6.1.2");
 		GridBagConstraints gbc_text_normal = new GridBagConstraints();
 		gbc_text_normal.insets = new Insets(0, 0, 5, 5);
@@ -94,6 +95,7 @@ public class Window {
 		panel_1.add(lblBer_1, gbc_lblBer_1);
 		
 		text_ber = new JTextArea();
+		text_ber.setLineWrap(true);
 		text_ber.setToolTipText("Exadecimal value without spaces");
 		GridBagConstraints gbc_text_ber = new GridBagConstraints();
 		gbc_text_ber.insets = new Insets(0, 0, 0, 5);
